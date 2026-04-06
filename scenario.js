@@ -42,7 +42,7 @@ const scenario = {
 
   assignment: {
     image: "images/cover.jpg",
-    text: "The official story was written by senators who hated Nero. The truth has been buried under 2,000 years of politics and legend.\n\nQuestion the witnesses. Look for contradictions. Find what they're hiding.\n\nWhen you're ready, you will answer one question: Who started the Great Fire of Rome?\n\nYou'll choose a theory — not accuse a single person. Was it deliberate arson? An accident that powerful men exploited? A political conspiracy? Historians still argue. Your answer will be measured against what they think.\n\nThe evidence is in the conversations."
+    text: "The official story was written by senators who hated Nero. The truth has been buried under 2,000 years of politics and legend.\n\nQuestion the witnesses. Look for contradictions. Find what they're hiding.\n\nWhen you're ready, you will choose one of three theories:\n\n1. Nero ordered the fire — He deliberately burned Rome to clear land for his Golden Palace.\n\n2. The fire was an accident that Nero exploited — Rome was a tinderbox. The fire started on its own, but Nero and his allies seized the opportunity before the ashes cooled.\n\n3. Political enemies started the fire — Nero's enemies in the Senate set the blaze to destroy his popularity and set the stage for his removal.\n\nHistorians have argued about this for 2,000 years. Your answer will be measured against what they think. The evidence is in the conversations."
   },
 
   witnesses: {
