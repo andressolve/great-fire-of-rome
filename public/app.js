@@ -35,6 +35,25 @@ function renderBriefing() {
     container.appendChild(div);
   });
 
+  // Witnesses introduction page
+  const witnessIntro = document.createElement("div");
+  witnessIntro.className = "briefing-page witnesses-intro-page";
+  witnessIntro.innerHTML = `
+    <h2>Three Witnesses</h2>
+    <div class="page-text" style="margin-bottom: 32px;">Two thousand years of politics, bias, and legend stand between you and the truth. These three were there that night. Each has a story. Each has something to hide.</div>
+    <div class="witness-cards">
+      ${Object.values(scenarioData.witnesses).map(w => `
+        <div class="witness-intro-card">
+          <img class="witness-intro-portrait" src="${w.portrait}" alt="${w.name}">
+          <h3>${w.name}</h3>
+          <div class="witness-intro-title">${w.title} &middot; Age ${w.age}</div>
+          <p class="witness-intro-profile">${w.profile}</p>
+        </div>
+      `).join("")}
+    </div>
+  `;
+  container.appendChild(witnessIntro);
+
   // Assignment section
   const assignment = document.getElementById("assignment-section");
   assignment.innerHTML = `
@@ -64,6 +83,7 @@ function buildInterrogation() {
         <h3>${witness.name}</h3>
         <div class="witness-title">${witness.title} &middot; Age ${witness.age}</div>
         <div class="witness-claims">Claims: ${witness.claims}</div>
+        <div class="witness-profile">${witness.profile}</div>
       </div>
       <div class="chat-area" id="chat-${id}">
         <div class="chat-message system">Begin questioning ${witness.name}...</div>

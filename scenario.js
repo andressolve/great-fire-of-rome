@@ -53,7 +53,7 @@ const scenario = {
       age: 26,
       portrait: "images/nero.jpg",
       claims: "Was at Antium, 35 miles away",
-      profile: "Young emperor, artistic, theatrical. Rushed back to organize relief — opened gardens, brought food, lowered grain prices. Then built the largest palace in Roman history on the cleared land."
+      profile: "Emperor of Rome at just 26. Artist, singer, performer — beloved by the common people, despised by the Senate. Claims he was 35 miles away when the fire started and rushed back to help. Opened his own gardens to refugees. Lowered grain prices. Then built the largest palace in Roman history on the cleared land."
     },
     tigellinus: {
       id: "tigellinus",
@@ -62,7 +62,7 @@ const scenario = {
       age: 55,
       portrait: "images/tigellinus.jpg",
       claims: "Was fighting the fire all night",
-      profile: "Commander of the emperor's personal guard. Cold, calculating, ruthless. The fire reignited on property connected to him. Organized the relief camps — and the Christian roundup."
+      profile: "Commander of the Praetorian Guard — Nero's enforcer. Rose from horse breeder to the most feared man in Rome. Claims he fought the fire all night. The fire reignited on his property. Organized the relief camps with ruthless efficiency — and the Christian roundup even faster."
     },
     miriam: {
       id: "miriam",
@@ -71,7 +71,7 @@ const scenario = {
       age: 34,
       portrait: "images/miriam.jpg",
       claims: "Was home in the Subura",
-      profile: "Jewish-Christian woman who lost her home. Was in the streets that night — one of the first to see the fire spread. Her community was scapegoated and tortured for a crime they didn't commit."
+      profile: "A widow. A washerwoman. A Christian. She was in the streets the night Rome burned — one of the first to see the fire spread. She lost her home. Then she watched her community rounded up, tortured, and burned alive for a crime they didn't commit."
     }
   },
 
