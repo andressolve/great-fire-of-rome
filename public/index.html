@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Great Fire of Rome — 64 AD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ACT 1: BRIEFING -->
+  <div id="briefing-screen" class="screen active">
+    <div class="briefing-header">
+      <h1>The Great Fire of Rome</h1>
+      <div class="subtitle">A Time-Travel Investigation — 64 AD</div>
+    </div>
+    <div id="briefing-pages"></div>
+    <div class="assignment-section" id="assignment-section"></div>
+  </div>
+
+  <!-- ACT 2: INTERROGATION -->
+  <div id="interrogation-screen" class="screen">
+    <div class="top-bar">
+      <h1>The Great Fire of Rome — 64 AD</h1>
+      <button class="btn verdict-btn" id="verdict-btn">Make Your Verdict</button>
+    </div>
+    <div class="interrogation-layout">
+      <div class="witnesses-panel" id="witnesses-panel"></div>
+      <div class="case-file" id="case-file">
+        <h2>Case File</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- VERDICT MODAL -->
+  <div class="modal-overlay" id="verdict-modal">
+    <div class="modal">
+      <h2>Your Verdict</h2>
+      <p class="modal-subtitle">Who started the Great Fire of Rome?</p>
+      <div id="theory-options"></div>
+      <div class="modal-actions">
+        <button class="btn btn-cancel" id="cancel-verdict">Cancel</button>
+        <button class="btn" id="submit-verdict" disabled>Submit Verdict</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACT 3: REVEAL -->
+  <div id="reveal-screen" class="screen"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
