@@ -36,7 +36,7 @@ const scenario = {
     {
       title: "And Then Something Strange Happens",
       image: "images/aftermath-domus-aurea.jpg",
-      text: "Emperor Nero — the man everyone suspects — builds the largest palace in Roman history on the cleared land. Three hundred rooms. An artificial lake. A 120-foot bronze statue of himself. \"At last,\" he says, \"I can live like a human being.\"\n\nMeanwhile, a small religious sect called the Christians is rounded up, tortured, and burned alive in Nero's gardens as punishment for a crime they may not have committed."
+      text: "Emperor Nero — the man everyone suspects — builds the largest palace in Roman history on the cleared land. Three hundred rooms. An artificial lake. A 120-foot bronze statue of himself. \"At last,\" he says, \"I can live like a human being.\"\n\nAnd he needs someone to blame.\n\nA small religious sect called the Christians — already distrusted by the Roman public for meeting in secret and refusing to worship the old gods — is rounded up. They are sewn into animal skins and torn apart by dogs. They are coated in tar and set on fire as human torches to light Nero's garden parties. Men, women, children. Dozens, maybe hundreds.\n\nEven Romans who hated the Christians felt it was too much. The historian Tacitus wrote that the public began to pity them — sensing \"they were being destroyed not for the public good, but to satisfy the cruelty of one man.\"\n\nOne of your witnesses belongs to this community."
     }
   ],
 
@@ -93,7 +93,7 @@ const scenario = {
         "Nero was at Antium (35 mi) when fire started",
         "Fire reignited on Tigellinus's property",
         "Domus Aurea built on cleared land",
-        "Christians blamed & publicly tortured",
+        "Christians blamed, tortured, burned alive as scapegoats",
         "Witnesses saw men with torches claiming 'orders'",
         "Nero's own palace also destroyed in fire",
         "Nero organized shelters, food, lower grain prices"
@@ -102,11 +102,11 @@ const scenario = {
     sources: {
       title: "Ancient Sources",
       facts: [
-        "Tacitus (c. 116 AD): \"uncertain\" — both sides",
-        "Suetonius (c. 121 AD): Nero did it",
-        "Cassius Dio (c. 225 AD): Nero sent arsonists",
+        "Tacitus (c. 116 AD): called the cause \"uncertain\" — accident or arson",
+        "Suetonius (c. 121 AD): Nero ordered it deliberately",
+        "Cassius Dio (c. 225 AD): Nero sent disguised arsonists",
         "All three were senators who despised Nero",
-        "Josephus refused to write about it — too biased"
+        "Josephus refused to write about it — too much bias to trust"
       ]
     }
   },
