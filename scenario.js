@@ -42,7 +42,7 @@ const scenario = {
 
   assignment: {
     image: "images/cover.jpg",
-    text: "The official story has been written by senators who hated Nero and historians born after the fire. The truth is buried under 2,000 years of politics, bias, and legend.\n\nYou're going back. Three witnesses. Three versions of that night. One of them knows what really happened.\n\nYour job: Figure out who started the Great Fire of Rome."
+    text: "The official story was written by senators who hated Nero. The truth has been buried under 2,000 years of politics and legend.\n\nQuestion the witnesses. Look for contradictions. Find what they're hiding.\n\nWhen you're ready, you will answer one question: Who started the Great Fire of Rome?\n\nYou'll choose a theory — not accuse a single person. Was it deliberate arson? An accident that powerful men exploited? A political conspiracy? Historians still argue. Your answer will be measured against what they think.\n\nThe evidence is in the conversations."
   },
 
   witnesses: {

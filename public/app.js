@@ -39,8 +39,8 @@ function renderBriefing() {
   const witnessIntro = document.createElement("div");
   witnessIntro.className = "briefing-page witnesses-intro-page";
   witnessIntro.innerHTML = `
-    <h2>Three Witnesses</h2>
-    <div class="page-text" style="margin-bottom: 32px;">Two thousand years of politics, bias, and legend stand between you and the truth. These three were there that night. Each has a story. Each has something to hide.</div>
+    <h2>The Witnesses</h2>
+    <div class="page-text" style="margin-bottom: 32px;">Three people were in Rome the night it burned. You are going back to question them.</div>
     <div class="witness-cards">
       ${Object.values(scenarioData.witnesses).map(w => `
         <div class="witness-intro-card">
