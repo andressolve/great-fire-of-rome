@@ -5,43 +5,43 @@ const scenario = {
   briefing: [
     {
       title: "Rome, 64 AD",
-      image: "images/map-rome.png",
+      image: "images/map-rome.jpg",
       text: "The Circus Maximus. The Palatine Hill. The Subura. The Forum. The Campus Martius.\n\nRemember these names. Before the night is over, most of them will be gone."
     },
     {
       title: "A City of One Million",
-      image: "images/briefing-1.png",
+      image: "images/briefing-1.jpg",
       text: "Down in those streets: a million people crammed into a maze of narrow alleys and wooden towers. Apartment blocks rise six stories high — families of four in rooms the size of a closet. Cook-fires on every floor. Oil lamps on every table. A hundred small fires break out every day.\n\nRome is a tinderbox. Everyone knows it. Nobody does anything about it."
     },
     {
       title: "The Night of July 18th",
-      image: "images/briefing-2.png",
+      image: "images/briefing-2.jpg",
       text: "Just after midnight, fire erupts in the oil shops beneath the Circus Maximus. Wind whips the flames along the full length of the arena — two thousand feet of wooden seating, awnings, and market stalls catch instantly.\n\nThe narrow streets act as chimneys, funneling flame from block to block. People don't know which way to run. Some flee toward neighborhoods already burning.\n\nRome's 7,000 firefighters are overwhelmed. They try to demolish buildings to create firebreaks. The wind carries embers over the gaps."
     },
     {
       title: "From Above",
-      image: "images/map-fire-night1.png",
+      image: "images/map-fire-night1.jpg",
       text: "Within hours, the fire is climbing the Palatine Hill. The Circus Maximus — that arena you just saw — is fully engulfed. The emperor's own palace is burning.\n\nThe fire burns for six days. It's brought under control. Then it reignites — on property connected to the Emperor's closest ally — and burns for three more days."
     },
     {
       title: "What's Left",
-      image: "images/map-fire-peak.png",
+      image: "images/map-fire-peak.jpg",
       text: "Ten of Rome's fourteen districts are destroyed. Three leveled to bare ground. Seventy percent of the city — gone.\n\nThe same streets. The same hills. Unrecognizable."
     },
     {
       title: "The Silence",
-      image: "images/briefing-3.png",
+      image: "images/briefing-3.jpg",
       text: "When the smoke clears, there is nothing. Charred stone where temples stood for centuries. Ash where families lived. The smell of wet cinder and something worse underneath.\n\nA few figures pick through the rubble, looking for anything that survived. Most find nothing."
     },
     {
       title: "And Then Something Strange Happens",
-      image: "images/aftermath-domus-aurea.png",
+      image: "images/aftermath-domus-aurea.jpg",
       text: "Emperor Nero — the man everyone suspects — builds the largest palace in Roman history on the cleared land. Three hundred rooms. An artificial lake. A 120-foot bronze statue of himself. \"At last,\" he says, \"I can live like a human being.\"\n\nMeanwhile, a small religious sect called the Christians is rounded up, tortured, and burned alive in Nero's gardens as punishment for a crime they may not have committed."
     }
   ],
 
   assignment: {
-    image: "images/cover.png",
+    image: "images/cover.jpg",
     text: "The official story has been written by senators who hated Nero and historians born after the fire. The truth is buried under 2,000 years of politics, bias, and legend.\n\nYou're going back. Three witnesses. Three versions of that night. One of them knows what really happened.\n\nYour job: Figure out who started the Great Fire of Rome."
   },
 
@@ -51,7 +51,7 @@ const scenario = {
       name: "Nero",
       title: "Emperor of Rome",
       age: 26,
-      portrait: "images/nero.png",
+      portrait: "images/nero.jpg",
       claims: "Was at Antium, 35 miles away",
       profile: "Young emperor, artistic, theatrical. Rushed back to organize relief — opened gardens, brought food, lowered grain prices. Then built the largest palace in Roman history on the cleared land."
     },
@@ -60,7 +60,7 @@ const scenario = {
       name: "Tigellinus",
       title: "Prefect of the Praetorian Guard",
       age: 55,
-      portrait: "images/tigellinus.png",
+      portrait: "images/tigellinus.jpg",
       claims: "Was fighting the fire all night",
       profile: "Commander of the emperor's personal guard. Cold, calculating, ruthless. The fire reignited on property connected to him. Organized the relief camps — and the Christian roundup."
     },
@@ -69,7 +69,7 @@ const scenario = {
       name: "Miriam",
       title: "Resident of the Subura District",
       age: 34,
-      portrait: "images/miriam.png",
+      portrait: "images/miriam.jpg",
       claims: "Was home in the Subura",
       profile: "Jewish-Christian woman who lost her home. Was in the streets that night — one of the first to see the fire spread. Her community was scapegoated and tortured for a crime they didn't commit."
     }
